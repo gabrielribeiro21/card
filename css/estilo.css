@@ -1,0 +1,301 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.card-principal {
+    display: flex;
+    margin-top: 85px;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0px auto;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.estrela {
+    color: hsl(25, 97%, 53%);
+    border: 1px solid lightslategray;
+    background-color: lightslategray;
+    border-radius: 50px;
+    text-align: center;
+    max-width: 35px;
+}
+
+.titulo {
+    color: hsl(0, 0%, 100%);
+}
+
+.texto {
+    font-size: 15px;
+    list-style: 20px;
+    color: hsl(216, 12%, 54%);
+}
+
+.numeros {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 40px;
+}
+
+.item {
+    border: 1px solid hsl(216, 12%, 8%);
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(216, 12%, 54%);
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.botao {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    padding: 15px 125px;
+    font-size: 19px;
+    font-weight: bold;
+    border: 1px solid hsl(25, 97%, 53%);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    font-weight: bold;
+}
+
+/* ----------------- CARD 1 -----------------*/
+
+.card-1 {
+    display: none;
+    margin-top: 85px;
+}
+
+svg {
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.btn-voltar {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    font-size: 1.50rem;
+    padding: 5px 15px;
+    margin-left: 125px;
+}
+
+.container-1 {
+    max-width: 300px;
+    margin: 0px auto;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.aviso {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
+    border: 1px solid hsl(216, 12%, 54%);
+    border-radius: 50px;
+    padding: 5px 8px;
+    max-width: 180px;
+    margin: 0px auto;
+}
+
+.agradecimento {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.texto-secundario {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+
+/* ----------------- CARD 2 -----------------*/
+
+.card-2 {
+    display: none;
+    margin-top: 85px;
+}
+
+svg {
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.container-2 {
+    max-width: 300px;
+    margin: 0px auto;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.aviso {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
+    border: 1px solid hsl(216, 12%, 54%);
+    border-radius: 50px;
+    padding: 5px 8px;
+    max-width: 180px;
+    margin: 0px auto;
+}
+
+.agradecimento {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.texto-secundario {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+/* ----------------- CARD 3 -----------------*/
+
+.card-3 {
+    display: none;
+    margin-top: 85px;
+}
+
+svg {
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.container-3 {
+    max-width: 300px;
+    margin: 0px auto;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.aviso {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
+    border: 1px solid hsl(216, 12%, 54%);
+    border-radius: 50px;
+    padding: 5px 8px;
+    max-width: 180px;
+    margin: 0px auto;
+}
+
+.agradecimento {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.texto-secundario {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+/* ----------------- CARD 4 -----------------*/
+
+.card-4 {
+    display: none;
+    margin-top: 85px;
+}
+
+svg {
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.container-4 {
+    max-width: 300px;
+    margin: 0px auto;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.aviso {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
+    border: 1px solid hsl(216, 12%, 54%);
+    border-radius: 50px;
+    padding: 5px 8px;
+    max-width: 180px;
+    margin: 0px auto;
+}
+
+.agradecimento {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.texto-secundario {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+/* ----------------- CARD 5 -----------------*/
+
+.card-5 {
+    display: none;
+    margin-top: 85px;
+}
+
+svg {
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.container-5 {
+    max-width: 300px;
+    margin: 0px auto;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.aviso {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
+    border: 1px solid hsl(216, 12%, 54%);
+    border-radius: 50px;
+    padding: 5px 8px;
+    max-width: 180px;
+    margin: 0px auto;
+}
+
+.agradecimento {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.texto-secundario {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
